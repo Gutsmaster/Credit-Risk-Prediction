@@ -4,4 +4,6 @@ scikit-learn
 xgboost 
 shap 
 matplotlib 
+plotly
 seaborn
+nbformat
