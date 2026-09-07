@@ -5,7 +5,7 @@ st.set_page_config(page_title="Credit Risk Predictor", page_icon="💳")
 st.title("💳 Credit Risk Predictor")
 st.write("Enter applicant details to estimate default risk.")
 
-API_URL = "http://127.0.0.1:8000/predict"
+API_URL = "https://credit-risk-prediction-6tdi.onrender.com/predict"
 
 with st.form("loan_form"):
     col1, col2 = st.columns(2)
